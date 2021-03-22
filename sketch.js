@@ -3,9 +3,9 @@ var movingRectangle;
 
 function setup() {
   createCanvas(1200,800);
-  fixedRectangle=createSprite(600, 400, 50, 80);
+  fixedRectangle=createSprite(600,400,50,80);
   fixedRectangle.shapeColor="green"
-  movingRectangle=createSprite(400, 200, 80, 30);
+  movingRectangle=createSprite(400,200,80,30);
   movingRectangle.shapeColor="green"
 }
 
